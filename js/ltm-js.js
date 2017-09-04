@@ -146,7 +146,7 @@ $(function(){
     });
 // *************************************************************************
 //师资力量--->更多教师
-    $.getJSON("../ltmJson.json",function(datas){
+    $.getJSON("../js/ltmJson.json",function(datas){
         var data=datas.szll;
         console.log(datas);
         $.each(data,function(i,item){
@@ -163,7 +163,7 @@ $(function(){
                 '</li>');
         })
     });
-    $.getJSON("../ltmJson.json",function(datas){
+    $.getJSON("../js/ltmJson.json",function(datas){
         var data=datas.szlls;
         console.log(datas);
         $.each(data,function(i,item){
@@ -181,7 +181,7 @@ $(function(){
     });
     //*****************************************************
     //课程研发
-    $.getJSON("../ltmJson.json",function(datas){
+    $.getJSON("../js/ltmJson.json",function(datas){
         var data=datas.shouye;
         console.log(datas);
         $.each(data,function(i,item){
@@ -199,7 +199,7 @@ $(function(){
         })
     });
     //学员评价
-    $.getJSON("../ltmJson.json",function(datas){
+    $.getJSON("../js/ltmJson.json",function(datas){
         var data=datas.xypj;
         console.log(datas);
         $.each(data,function(i,item){

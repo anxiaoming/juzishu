@@ -216,7 +216,7 @@ $(function(){
         })
     });
 });
-var wordL=document.querySelector('.wordL');
+var wordL=document.getElementsByClassName('.wordL');
 wordL.style.height=innerHeight+'px';
 
 

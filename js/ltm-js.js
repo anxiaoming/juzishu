@@ -151,7 +151,7 @@ $(function(){
         console.log(datas);
         $.each(data,function(i,item){
             $('#ltmszllUl').append('<li class="sz-list">' +
-                '<a href="">' +
+                '<a href="ltm-szll-gdjs.html">' +
                 '<div class="sz-img">' +
                 '<img src="../'+item.img+'" alt="'+item.name+'" title="'+item.name+'">' +
                 '<p>'+item.name+'</p>' +
@@ -204,7 +204,7 @@ $(function(){
         console.log(datas);
         $.each(data,function(i,item){
             $('#ltm-qwe').append('<li>' +
-                '<a href="" target="_blank">' +
+                '<a href="ltm-xypj-xypjxq.html" target="_blank">' +
                     '<div class="xypjImg">' +
                         '<img src="'+item.img+'" alt="'+item.name+'" title="'+item.name+'">' +
                     '</div>' +
